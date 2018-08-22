@@ -1218,7 +1218,7 @@
                                     var text = $('label', element).text();
 
                                     if (this.options.enableDiacriticsFiltering) {
-                                        text = disableDiacritics(text);
+                                        text = removeDiacritics(text);
                                     }
 
                                     var filterCandidate = '';
